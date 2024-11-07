@@ -66,5 +66,4 @@ Credits: This work began as a fork of MindMap' repository: [MindMap](https://git
   journal={arXiv preprint arXiv:2405.04819},
   year={2024}
 }
-}
 ```

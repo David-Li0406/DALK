@@ -527,7 +527,8 @@ if __name__ == "__main__":
 
                 cos_similarities = cosine_similarity_manual(entity_embeddings_emb, kg_entity_emb)[0]
                 max_index = cos_similarities.argmax()
-                            
+                
+                match_kg_i = entity_embeddings["entities"][max_index]
                 while match_kg_i in match_kg:
                     cos_similarities[max_index] = 0
                     max_index = cos_similarities.argmax()

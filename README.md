@@ -44,7 +44,7 @@ username = ""
 password = ""
 ```
 
-And then, run
+And then, build a folder under ``Alzheimers`` called ``result_chatgpt_mindmap`` and run
 
 ```
 cd KG4LLM

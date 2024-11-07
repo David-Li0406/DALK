@@ -1,8 +1,12 @@
 <div align="center">
 
-DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer’s Disease Questions with Scientific Literature
+# DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer’s Disease Questions with Scientific Literature
 
 </div>
+
+## Update
+
+10.17: DALK has been accepted by EMNLP 2024 Findings! Check our camera-ready version [here](https://arxiv.org/pdf/2405.04819).
 
 ## Overview
 
@@ -53,4 +57,14 @@ python MindMap.py
 
 It may take a while to upload the local AD-KG data to neo4j.
 
-Credits: This work began as a fork of MindMap' repository: [MindMap](https://github.com/wyl-willing/MindMap).
+Credits: This work began as a fork of MindMap' repository: [MindMap](https://github.com/wyl-willing/MindMap). If you found our code useful, please consider citing:
+
+```
+@article{li2024dalk,
+  title={DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer's Disease Questions with Scientific Literature},
+  author={Li, Dawei and Yang, Shu and Tan, Zhen and Baik, Jae Young and Yun, Sunkwon and Lee, Joseph and Chacko, Aaron and Hou, Bojian and Duong-Tran, Duy and Ding, Ying and others},
+  journal={arXiv preprint arXiv:2405.04819},
+  year={2024}
+}
+}
+```

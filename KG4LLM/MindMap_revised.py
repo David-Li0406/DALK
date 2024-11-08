@@ -715,7 +715,7 @@ if __name__ == "__main__":
             neighbor_input_sampled = self_knowledge_retrieval_reranking(neighbor_input, input_text[0])
             response_of_KG_neighbor = prompt_neighbor(neighbor_input_sampled)
             if is_unable_to_answer(response_of_KG_neighbor):
-                response_of_KG_neighbor = prompt_neighbor(neighbor_input)
+                response_of_KG_neighbor = prompt_neighbor(neighbor_input_sampled)
 
 
             # # 8. prompt-based medical diaglogue answer generation

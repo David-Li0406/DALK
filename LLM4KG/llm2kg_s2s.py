@@ -47,6 +47,12 @@ def read_literature():
             entity_type = set()
     return year2literatures
 
+def get_entity_name(entity_names):
+    if len(entity_names) == 1:
+        return entity_names[0]
+    else:
+        return '{} ({})'.format(entity_names[0], ', '.join(entity_names[1:]))
+
 def main():
     no_relation, with_relation = 0, 0
     year2literatures = read_literature()

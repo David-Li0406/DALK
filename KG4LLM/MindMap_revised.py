@@ -486,10 +486,6 @@ if __name__ == "__main__":
     re2 = r"The extracted entity is (.*?)<END>"
     re3 = r"<CLS>(.*?)<SEP>"
 
-    with open('output.csv', 'w', newline='') as f4:
-        writer = csv.writer(f4)
-        writer.writerow(['Question', 'Label', 'MindMap','GPT3.5','BM25_retrieval','Embedding_retrieval','KG_retrieval','GPT4'])
-
     with open('./Alzheimers/entity_embeddings.pkl','rb') as f1:
         entity_embeddings = pickle.load(f1)
     

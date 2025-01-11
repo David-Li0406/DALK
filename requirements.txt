@@ -97,9 +97,6 @@ tenacity==8.2.3
 threadpoolctl==3.1.0
 tiktoken==0.4.0
 tokenizers==0.13.3
-torch==1.10.1+cu111
-torchaudio==0.10.1+cu111
-torchvision==0.11.2+cu111
 tqdm==4.65.0
 transformers==4.33.1
 types-python-dateutil==2.8.19.20240106
